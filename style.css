@@ -27,6 +27,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+  
 }
 
 .nav-buttons ul {
@@ -46,6 +47,9 @@ h1 {
   font-weight: bold;
   padding: 10px 15px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+  border-color: #333;
+  border: #333;
+  border-radius: 5px;
 }
 
 .nav-buttons a:hover {
@@ -70,18 +74,21 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   padding-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .section-title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .section-content {
   font-size: 1.3rem;
   line-height: 1.5;
-  text-align: justify;
+  text-align: center;
   padding-bottom: 20px;
 }
 
