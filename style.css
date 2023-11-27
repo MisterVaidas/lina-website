@@ -11,18 +11,22 @@ h1 {
 }
 
 .header-container {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   height: 100px;
   background-color: aquamarine;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .nav-buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .nav-buttons ul {
@@ -55,6 +59,7 @@ h1 {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .article-header {
@@ -74,9 +79,10 @@ h1 {
 }
 
 .section-content {
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   text-align: justify;
+  padding-bottom: 20px;
 }
 
 .photography-section {
